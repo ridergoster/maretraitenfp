@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Semibold.woff2') format('woff2'),
+        url('Bauziet-Semibold.woff') format('woff'),
+        url('Bauziet-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-ExtraboldItalic.woff2') format('woff2'),
+        url('Bauziet-ExtraboldItalic.woff') format('woff'),
+        url('Bauziet-ExtraboldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-LightItalic.woff2') format('woff2'),
+        url('Bauziet-LightItalic.woff') format('woff'),
+        url('Bauziet-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Bold.woff2') format('woff2'),
+        url('Bauziet-Bold.woff') format('woff'),
+        url('Bauziet-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Light.woff2') format('woff2'),
+        url('Bauziet-Light.woff') format('woff'),
+        url('Bauziet-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Regular.woff2') format('woff2'),
+        url('Bauziet-Regular.woff') format('woff'),
+        url('Bauziet-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-SemiboldItalic.woff2') format('woff2'),
+        url('Bauziet-SemiboldItalic.woff') format('woff'),
+        url('Bauziet-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Italic.woff2') format('woff2'),
+        url('Bauziet-Italic.woff') format('woff'),
+        url('Bauziet-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-MediumItalic.woff2') format('woff2'),
+        url('Bauziet-MediumItalic.woff') format('woff'),
+        url('Bauziet-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Medium.woff2') format('woff2'),
+        url('Bauziet-Medium.woff') format('woff'),
+        url('Bauziet-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-BoldItalic.woff2') format('woff2'),
+        url('Bauziet-BoldItalic.woff') format('woff'),
+        url('Bauziet-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bauziet';
+    src: url('Bauziet-Extrabold.woff2') format('woff2'),
+        url('Bauziet-Extrabold.woff') format('woff'),
+        url('Bauziet-Extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

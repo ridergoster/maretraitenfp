@@ -1,0 +1,181 @@
+main {
+    font-family: Bauziet, Roboto, Arial, sans-serif;
+    background-image: url("pattern.png"), url("bg.svg");
+    background-size: 1000px, cover;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: scroll;
+    padding: 25px;
+    color: #212b36;
+}
+
+.wrapper {
+    max-width: 400px;
+}
+
+h1, h2 {
+    font-family: Bauziet, Roboto, Arial, sans-serif; 
+}
+
+@media screen and (min-width: 1000px) {
+    .wrapper {
+        max-width: none;
+    }
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    max-width: 450px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    /* border-color: white; */
+    /* border-style: solid; */
+    /* border-width: 1px; */
+}
+
+.callout {
+    border-radius: 10px;
+}
+
+.container--clean {
+    padding: 0;
+    background: none;
+    border: none;
+    color: white;
+    backdrop-filter: none;
+}
+
+.rounded-box-green {
+    background-color: #ebf8eb;
+    /* Vert pastel */
+    border-radius: 15px;
+    /* Coins arrondis */
+    padding: 10px;
+    max-width: 500px;
+    text-align: center;
+    border: solid 1px;
+    border-color: #00b900;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.rounded-box-red {
+    background-color: #f9dede;
+    /* Vert pastel */
+    border-radius: 15px;
+    /* Coins arrondis */
+    padding: 10px;
+    max-width: 500px;
+    text-align: center;
+    border: solid 1px;
+    border-color: #ad0101;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    /* Définir la largeur du conteneur */
+    /* margin-bottom: 0px;
+    /* Espace entre l'input et le bouton */
+}
+
+.input-button-container {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    /* Assurer que l'input prenne toute la largeur du conteneur */
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 0.8em;
+    /* Augmente la taille du texte */
+    padding-left: 15px;
+    padding-right: 25px;
+    /* Espace pour le symbole de la devise */
+    height: 40px;
+    /* Définir une hauteur pour l'input */
+}
+
+/* Styles pour supprimer les flèches dans les champs de type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    /* Pour Firefox */
+}
+
+.currency {
+    /* top: 50%; */
+    /* right: 10px; */
+    /* transform: translateY(-50%); */
+    /* font-size: 20px; */
+    color: #999;
+}
+
+.icon-container {
+    pointer-events: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-right: 10px;
+    width: 25px;
+    height: 40px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    /* Assurer que la hauteur du bouton soit la même que celle de l'input */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    margin: 5px 0;
+}
